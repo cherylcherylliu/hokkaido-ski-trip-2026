@@ -1,0 +1,122 @@
+[
+  {
+    "day": "Day 1",
+    "title": "搭乘JR快速列車前往札幌站",
+    "currency": "JPY",
+    "amount": 2070,
+    "paidBy": "Cheryl",
+    "note": "Total: ¥2,070\n(Basic fare: ¥1,230 Seat charge: ¥840"
+  },
+  {
+    "day": "Day 1",
+    "title": "晚餐選擇一：狸小路「成吉思汗 達摩」",
+    "currency": "JPY",
+    "amount": 2500,
+    "paidBy": "Cheryl",
+    "note": "札幌必吃烤羊肉，補充能量 官網"
+  },
+  {
+    "day": "Day 2",
+    "title": "手稻滑雪場サッポロテイネ上課日(Lesson Day)",
+    "currency": "JPY",
+    "amount": 6200,
+    "paidBy": "Cheryl",
+    "note": "教練課不含雪票\n上課行程表"
+  },
+  {
+    "day": "Day 2",
+    "title": "晚餐：GOKURI 湯咖哩",
+    "currency": "JPY",
+    "amount": 1800,
+    "paidBy": "Cheryl",
+    "note": "飯店旁 500m 濃厚名店，免預約現場排 官網"
+  },
+  {
+    "day": "Day 2",
+    "title": "白色燈飾節 + 飯店泡湯",
+    "currency": "JPY",
+    "amount": 1000,
+    "paidBy": "Cheryl",
+    "note": "步行至南1條通看燈飾；回飯店 2F 露天溫泉舒緩肌肉\n泡湯規範"
+  },
+  {
+    "day": "Day 3",
+    "title": "前往雪場 (JR 札幌站 → 手稻站 → 巴士)\n搭計程車",
+    "currency": "JPY",
+    "amount": 1340,
+    "paidBy": "Cheryl",
+    "note": "補：計程車資料\n夜滑時間，裝備租賃"
+  },
+  {
+    "day": "Day 3",
+    "title": "自滑+夜滑-Olympia區",
+    "currency": "JPY",
+    "amount": 6200,
+    "paidBy": "Cheryl",
+    "note": "olympia區美食"
+  },
+  {
+    "day": "Day 3",
+    "title": "晚餐：札幌車站附近拉麵",
+    "currency": "JPY",
+    "amount": 1500,
+    "paidBy": "Cheryl",
+    "note": "推薦「さっぽろ純連」或「一粒庵」"
+  },
+  {
+    "day": "Day 4",
+    "title": "搭乘 Big Runs 巴士(4403-6)直達高地區",
+    "currency": "JPY",
+    "amount": 10500,
+    "paidBy": "Cheryl",
+    "note": "含 7H 雪票之促銷套票，省力首選 預約連結\n截圖：行程表"
+  },
+  {
+    "day": "Day 4",
+    "title": "自滑-高地區 (Highland Zone)",
+    "currency": "JPY",
+    "amount": 6200,
+    "paidBy": "Cheryl",
+    "note": "搭 Summit Express 攻頂看海景，滑 City Cruise 路線\n高地區美食，置物櫃"
+  },
+  {
+    "day": "Day 5",
+    "title": "森彥咖啡本店 (最強手沖)",
+    "currency": "JPY",
+    "amount": 1000,
+    "paidBy": "Cheryl",
+    "note": "圓山公園古宅，必點限定「森の雫」。不接受預約。"
+  },
+  {
+    "day": "Day 5",
+    "title": "小樽一日遊 (三角市場海鮮朝食)",
+    "currency": "JPY",
+    "amount": 1500,
+    "paidBy": "Cheryl",
+    "note": "避開週末人潮。必吃：海鮮丼、Naruto 炸半雞"
+  },
+  {
+    "day": "Day 5",
+    "title": "晚餐：小樽政壽司",
+    "currency": "JPY",
+    "amount": 5000,
+    "paidBy": "Cheryl",
+    "note": "壽司通80年名店，建議提早網路訂位 預約連結"
+  },
+  {
+    "day": "Day 6",
+    "title": "前往新千歲機場 (快速 Airport 列車)",
+    "currency": "JPY",
+    "amount": 1150,
+    "paidBy": "Cheryl",
+    "note": "提早抵達可逛機場哆啦A夢與伴手禮區"
+  },
+  {
+    "day": "Day 6",
+    "title": "買伴手禮/泡湯4F＋行李寄放1F or 3F",
+    "currency": "JPY",
+    "amount": 2500,
+    "paidBy": "Cheryl",
+    "note": ""
+  }
+]

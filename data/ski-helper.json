@@ -1,0 +1,77 @@
+{
+  "buildSnapshot": "2026-03-10 10:32 JST",
+  "current": {
+    "status": "OPEN",
+    "weather": "Sunny",
+    "tempC": -8,
+    "newSnow24hCm": 10,
+    "peakDepthCm": 310,
+    "baseDepthCm": 220,
+    "snowQuality": "Powder"
+  },
+  "zones": [
+    {
+      "name": "Highland Zone",
+      "summary": "偏山頂、景色好，適合進階與想看海景的人。"
+    },
+    {
+      "name": "Olympia Zone",
+      "summary": "較適合初學者與夜滑，設施也更完整。"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Skadi",
+      "zone": "Highland",
+      "what": "熱食 / 午餐"
+    },
+    {
+      "name": "ULLR",
+      "zone": "Highland",
+      "what": "大型餐廳 / 午餐"
+    },
+    {
+      "name": "North Maple",
+      "zone": "Highland",
+      "what": "咖啡 / 輕食"
+    },
+    {
+      "name": "Hot Café 1023",
+      "zone": "Highland summit",
+      "what": "熱飲 / 景觀"
+    },
+    {
+      "name": "Snack House",
+      "zone": "Olympia",
+      "what": "快餐 / 小食"
+    }
+  ],
+  "access": [
+    {
+      "type": "JR + Bus",
+      "detail": "札幌站 → JR 手稻站 → JR 巴士約 20 分鐘"
+    },
+    {
+      "type": "Taxi",
+      "detail": "札幌市區出發可直達；價格以當地計費為準"
+    },
+    {
+      "type": "BIGRUNS",
+      "detail": "札幌王子大飯店 ↔ 手稻高地區，已上傳訂單"
+    }
+  ],
+  "links": [
+    {
+      "label": "官方 Snow 頁",
+      "url": "https://sapporo-teine.com/snow/"
+    },
+    {
+      "label": "JMA 繁中",
+      "url": "https://www.data.jma.go.jp/multi/index.html?lang=cn_zt"
+    },
+    {
+      "label": "Weathernews Ski",
+      "url": "https://weathernews.jp/s/ski/"
+    }
+  ]
+}

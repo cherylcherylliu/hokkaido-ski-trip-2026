@@ -1,0 +1,66 @@
+[
+  {
+    "title": "去程機票",
+    "category": "flight",
+    "date": "2026-03-12",
+    "subtitle": "Scoot TR892｜TPE → CTS",
+    "note": "12:30 出發，17:20 抵達；加購 20 kg 行李",
+    "fileName": "2026-0312_flight_tpe-cts.pdf"
+  },
+  {
+    "title": "札幌王子飯店住宿確認",
+    "category": "hotel",
+    "date": "2026-03-12",
+    "subtitle": "Sapporo Prince Hotel",
+    "note": "Check-in 15:00 後，Check-out 11:00 前；已付款 TWD 33,834",
+    "fileName": "2026-03-12_hotel_sapporo-booking.pdf"
+  },
+  {
+    "title": "雪具租借 Day 1",
+    "category": "rental",
+    "date": "2026-03-13",
+    "subtitle": "Sapporo Teine",
+    "note": "租借費用 JPY 61,600",
+    "fileName": "2026-03-13_rental_teine-ski_Day1.pdf"
+  },
+  {
+    "title": "手稻滑雪場票券 QR 兌換券",
+    "category": "ticket",
+    "date": "2026-03-13",
+    "subtitle": "Spring 1-day pass",
+    "note": "JPY 6,200；至自動取票機或票務櫃檯換票",
+    "fileName": "2026-03-13_ticket_teine-ski-3099.pdf"
+  },
+  {
+    "title": "雪具租借 Day 2",
+    "category": "rental",
+    "date": "2026-03-14",
+    "subtitle": "Sapporo Teine",
+    "note": "租借費用 JPY 8,700",
+    "fileName": "2026-03-14_rental_teine-ski_day2.pdf"
+  },
+  {
+    "title": "雪具租借 Day 3",
+    "category": "rental",
+    "date": "2026-03-15",
+    "subtitle": "Sapporo Teine",
+    "note": "租借費用 JPY 17,400",
+    "fileName": "2026-03-15_rental_teine-ski_Day3.pdf"
+  },
+  {
+    "title": "BIGRUNS 來回巴士 + 7 小時纜車票",
+    "category": "transport",
+    "date": "2026-03-15",
+    "subtitle": "札幌王子大飯店 ↔ 手稻高地區",
+    "note": "成人 JPY 10,500 × 2；總額 JPY 21,000",
+    "fileName": "2026-03-15_transport_BIGRUNS-teine.pdf"
+  },
+  {
+    "title": "回程機票",
+    "category": "flight",
+    "date": "2026-03-17",
+    "subtitle": "Scoot TR893｜CTS → TPE",
+    "note": "18:40 出發，22:15 抵達；加購 25 kg 行李",
+    "fileName": "2026-03-17_flight_cts-tpe.pdf"
+  }
+]

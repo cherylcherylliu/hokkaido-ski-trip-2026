@@ -1,0 +1,108 @@
+[
+  {
+    "id": "acnes-medical-cream-ex",
+    "name": "Acnes Medical Cream EX",
+    "jpName": "メンソレータム アクネス 25 メディカルクリーム EXa",
+    "type": "OTC",
+    "usage": "成人痘 / 發炎型痘痘局部治療",
+    "price": "約 JPY 800 – 1,200",
+    "buyAt": "日本藥妝店",
+    "tags": [
+      "💊 OTC",
+      "⭐ 藥師整理"
+    ],
+    "ingredients": [
+      {
+        "en": "Ibuprofen Piconol",
+        "jp": "イブプロフェンピコノール",
+        "zh": "布洛芬吡啶甲醇酯",
+        "role": "抗發炎"
+      },
+      {
+        "en": "Isopropyl Methylphenol",
+        "jp": "イソプロピルメチルフェノール",
+        "zh": "異丙基甲基苯酚",
+        "role": "抗菌"
+      },
+      {
+        "en": "Allantoin",
+        "jp": "アラントイン",
+        "zh": "尿囊素",
+        "role": "修復"
+      }
+    ],
+    "note": "官方主打成人痘，大人ニキビ。"
+  },
+  {
+    "id": "rohto-alguard-clear-mild-z",
+    "name": "Rohto Alguard Clear Mild Z",
+    "jpName": "ロート アルガード クリアマイルド Z",
+    "type": "OTC",
+    "usage": "過敏眼癢 / 花粉症不適",
+    "price": "約 JPY 1,200 – 1,800",
+    "buyAt": "日本藥妝店",
+    "tags": [
+      "💊 OTC"
+    ],
+    "ingredients": [
+      {
+        "en": "Chlorpheniramine maleate",
+        "jp": "クロルフェニラミンマレイン酸塩",
+        "zh": "馬來酸氯苯那敏",
+        "role": "抗組織胺"
+      },
+      {
+        "en": "Tetrahydrozoline HCl",
+        "jp": "テトラヒドロゾリン塩酸塩",
+        "zh": "四氫唑啉",
+        "role": "收縮血管"
+      },
+      {
+        "en": "Dipotassium glycyrrhizate",
+        "jp": "グリチルリチン酸二カリウム",
+        "zh": "甘草酸二鉀",
+        "role": "抗發炎"
+      }
+    ],
+    "note": "低刺激路線。"
+  },
+  {
+    "id": "mentholatum-medical-lip",
+    "name": "Mentholatum Medical Lip",
+    "jpName": "メンソレータム メディカルリップ",
+    "type": "OTC",
+    "usage": "口角炎 / 唇炎 / 嘴唇乾裂",
+    "price": "約 JPY 700 – 1,000",
+    "buyAt": "日本藥妝店",
+    "tags": [
+      "💊 OTC"
+    ],
+    "ingredients": [
+      {
+        "en": "dl-Methionine",
+        "jp": "dl-メチオニン",
+        "zh": "DL-甲硫胺酸",
+        "role": "修復黏膜"
+      },
+      {
+        "en": "Pyridoxine HCl",
+        "jp": "ピリドキシン塩酸塩",
+        "zh": "維生素 B6",
+        "role": "促進修復"
+      },
+      {
+        "en": "Tocopherol acetate",
+        "jp": "トコフェロール酢酸エステル",
+        "zh": "維生素 E",
+        "role": "抗氧化"
+      },
+      {
+        "en": "Glycyrrhetinic acid",
+        "jp": "グリチルレチン酸",
+        "zh": "甘草次酸",
+        "role": "抗發炎"
+      }
+    ],
+    "note": "無香料、無著色。"
+  }
+]
