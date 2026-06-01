@@ -1,30 +1,15 @@
-# Hokkaido Ski Trip 2026 v2
+# Australia 2026 Web App Clean v14.3 Full QA
 
-這是更新後的旅行 Web App 專案，已整理成比較接近未來 template 的結構。
+本版修正 v14.2 發現的問題：6/2–6/10 討論後的新行程沒有完整寫入。
 
-## 這版已包含
-- 5 個主分頁：行程 / 美食 / 伴手禮 / 花費 / 文件
-- Banner 按鈕：天氣 / 分帳 / 手稻滑雪
-- 手稻滑雪小助手（雪況快照、交通、兩區設施、餐廳）
-- PWA（可加到手機主畫面）
-- 文件資料已整理成卡片 metadata
-
-## 很重要：關於 PDF
-你上傳的原始 PDF 已放在：`private_docs_not_for_public_upload/`
-這些檔案包含個人資訊，不建議直接公開部署到 GitHub Pages。
-
-## GitHub Pages 部署
-1. 建立 repo：`hokkaido-ski-trip-2026`
-2. 上傳本資料夾內容到 repo 根目錄
-3. Settings → Pages
-4. Source 選 `Deploy from a branch`
-5. Branch 選 `main`，Folder 選 `/ (root)`
-
-## 你之後可以改的資料檔
-- `data/trip.json`
-- `data/food.json`
-- `data/souvenirs.json`
-- `data/expenses.json`
-- `data/documents.json`
-- `data/ski-helper.json`
-- `config/site-config.json`
+- 6/2 補回 Aurora Options。
+- 6/3 補 Wombat Route、Triabunna 回住宿、Eastlands Dinner Options、Aurora Check。
+- 6/4 補 Hobart 半日完整路線：Battery Point、Jackman & McRoss、Salamanca、Waterfront / Fish Frenzy、機場還車、Melbourne arrival dinner options。
+- 6/5 改回討論後新版：住宿早餐、State Library、Good Measure、Queen Victoria Market、Pho、CBD Shopping。
+- 6/6 補 Hot Soup Backup。
+- 6/7–6/8 補 Great Ocean Road 餐點與 Optional Stops。
+- 6/9 確認先到 ibis 寄放行李，再加油 / 還 SIXT，補 shopping / Tonka / 旅伴機場動線。
+- 6/10 確認新版：刪 St Kilda，保留 Be Marsupial + Fitzroy Coffee Walk + Winter Night Market。
+- Flight Hub：華航 CI0057 / CI0058 更新為手提 7 kg、托運 2 × 23 kg。
+- 修正 6/14 J1/J2 目的地為 Adelaide Airport Passenger Terminal。
+- 保留 Split 修正與 sticky 日期列。

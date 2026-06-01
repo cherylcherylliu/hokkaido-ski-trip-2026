@@ -1,143 +1,64 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hokkaido Ski Trip 2026</title>
-
-<link rel="stylesheet" href="styles/style.css">
-
-<style>
-
-body{
-margin:0;
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI";
-background:#f5f5f7;
-}
-
-/* Banner */
-
-.banner{
-background:white;
-padding:12px 16px;
-border-bottom:1px solid #eee;
-}
-
-.banner h1{
-font-size:18px;
-margin:0;
-}
-
-.trip-date{
-font-size:13px;
-color:#666;
-margin:2px 0;
-}
-
-.trip-location{
-font-size:13px;
-color:#999;
-margin-bottom:8px;
-}
-
-/* 三個快捷按鈕 */
-
-.banner-actions{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:6px;
-}
-
-.banner-btn{
-background:#f3f3f3;
-padding:8px;
-text-align:center;
-border-radius:10px;
-font-size:14px;
-}
-
-/* 主內容 */
-
-.content{
-padding:16px;
-padding-bottom:80px;
-}
-
-.placeholder{
-background:white;
-border-radius:12px;
-padding:20px;
-}
-
-/* Footer */
-
-.footer{
-position:fixed;
-bottom:0;
-width:100%;
-height:56px;
-background:white;
-border-top:1px solid #eee;
-display:flex;
-align-items:center;
-justify-content:center;
-}
-
-.nav{
-display:flex;
-gap:26px;
-font-size:14px;
-}
-
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Australia 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,300..600,0..1,0&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div>
+        <div class="eyebrow">Journey</div>
+        <h1>Australia 2026</h1>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" data-panel="weather" aria-label="Weather"><span class="material-symbols-rounded">partly_cloudy_day</span></button>
+        <button class="icon-btn" data-panel="flight" aria-label="Flight Hub"><span class="material-symbols-rounded">flight_takeoff</span></button>
+        <button class="icon-btn" data-panel="transport" aria-label="Transport"><span class="material-symbols-rounded">tram</span></button>
+        <button class="icon-btn" data-panel="help" aria-label="Help"><span class="material-symbols-rounded">support_agent</span></button>
+        <button class="icon-btn" data-panel="driving" aria-label="Driving Guide"><span class="material-symbols-rounded">directions_car</span></button>
+        <button class="icon-btn" data-panel="payment" aria-label="Payment"><span class="material-symbols-rounded">credit_card</span></button>
+      </div>
+    </div>
+  </header>
 
-<header class="banner">
+  <main class="app-main">
+    <nav class="date-tabs" id="dateTabs"></nav>
 
-<h1>Hokkaido Ski Trip 2026</h1>
-<p class="trip-date">2026/03/12 – 03/17</p>
-<p class="trip-location">Sapporo / Teine</p>
+    <section class="layout" id="mainSwipeArea">
+      <div class="stack">
+        <article class="card hero-card" id="heroCard"></article>
+        <article class="card day-warning-card" id="dayWarningCard" hidden></article>
+        <article class="card" id="reminderCard"></article>
+        <article class="card" id="timelineCard"></article>
+      </div>
+    </section>
+  </main>
 
-<div class="banner-actions">
+  <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Back to top">
+    <span class="material-symbols-rounded">keyboard_arrow_up</span>
+  </button>
 
-<div class="banner-btn">
-☀️ 3°C
-</div>
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow">Panel</div>
+          <h2 id="modalTitle"></h2>
+          <p class="theme" id="modalSubtitle"></p>
+        </div>
+        <button class="close-btn" id="closeModal" aria-label="Close">×</button>
+      </div>
+      <div id="modalItems"></div>
+    </div>
+  </div>
 
-<div class="banner-btn">
-💰 分帳
-</div>
-
-<div class="banner-btn">
-⛷ -8°C
-</div>
-
-</div>
-
-</header>
-
-<main class="content">
-
-<h2>行程</h2>
-
-<div class="placeholder">
-行程內容會顯示在這裡
-</div>
-
-</main>
-
-<footer class="footer">
-
-<div class="nav">
-<span>📅 行程</span>
-<span>🍜 美食</span>
-<span>🎁 伴手禮</span>
-<span>💰 花費</span>
-</div>
-
-</footer>
-
+  <script src="./data.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
